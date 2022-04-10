@@ -1,0 +1,47 @@
+body{
+    font-family:'Montserrat';
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h2{
+    font-weight: 600;
+    color: white;
+}
+
+input{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 500px;
+    /* height:400px; */
+    background-color: aqua;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px rgb(218, 218, 218);
+}
+
+.card-top{
+    padding: 20px 50px;
+    background: linear-gradient(to bottom left, #f38b17, #ed4880);
+}
+
+.card-bottom{
+    padding: 30px;
+    background-color: #FBF7EE;
+}
+
