@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: 'Roboto';
+    background-color: black;
+}
+
+h1, p{
+    color: white;
+}
+
+img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #10B981;
+    font-size: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4ADF86;
+}
+
+hr {
+    height: 3px;
+    background-color: #273549;
+    border: none;
+}
+
+.green-text{
+    color: #4ADF86;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generator{
+    background-color: #1F2937;
+    width: 450px;
+    padding: 40px;
+}
+
+.password-box{
+    background-color: #273549;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.password-box p{
+    padding: 10px 0;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+
